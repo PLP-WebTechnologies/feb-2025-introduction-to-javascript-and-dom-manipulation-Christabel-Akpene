@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(251, 249, 246);
+}
+
+.container{
+    text-align: center;
+
+}
+
+.container h1{
+    margin: 50px 0px;
+    font-family: monospace;
+    font-size: clamp(1.5rem, 3vw, 1.7rem);
+}
+
+.container p{
+    margin: 15px 0px;
+    font-style: italic;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container label{
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    padding: 20px;
+
+}
+
+.container input{
+    width: 100px;
+    height: 50px;
+}
+
+.container button{
+    margin: 25px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.container button:hover{
+    background-color: rgb(246, 246, 250);
+}
+
+.span{
+    font-size: 0.6rem;
+    display: block;
+    color: red;
+}
